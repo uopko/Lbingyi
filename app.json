@@ -1,0 +1,30 @@
+{
+  "name": "jianghuhello",
+  "description": "江湖再见",
+  "keywords": [
+    "hello world"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议类型",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "9c1e36dd-6669-54fb-5b6c-7f389f602eda",
+      "required": true
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/zaola/jianghuhello",
+  "repository": "https://github.com/zaola/jianghuhello",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
